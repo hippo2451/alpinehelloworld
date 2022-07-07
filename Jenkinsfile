@@ -2,7 +2,8 @@ pipeline{
      environment{
 	   IMAGE_NAME = "alpinehelloworld"
 	   IMAGE_TAG = "latest"
-	   STAGING = "hippoproduction"
+	   STAGING = "hippo-staging"
+	   PRODUCTION = "hippo-production"
     }
 	agent none
 	stages {
